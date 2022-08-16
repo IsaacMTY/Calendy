@@ -13,7 +13,9 @@ public class main_calendar{
         // Calendar today = Calendar.getInstance();
         // display_current_month(today);
         event test_Event = new event();
-        test_Event.change_options();
+        while (true) {
+            test_Event.change_options();
+        }
     }
 
     static void test_Calendar_functions() 
@@ -24,6 +26,10 @@ public class main_calendar{
 
     public static void display_current_month(Calendar Right_Now) {
         
+    }
+
+    public int create_event() {
+        return 1;
     }
 
 }
