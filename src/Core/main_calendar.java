@@ -1,9 +1,6 @@
 package Core;
 
 import java.util.Calendar;
-import java.util.Scanner;
-
-import Core.event;
 
 public class main_calendar{
 
@@ -28,7 +25,19 @@ public class main_calendar{
         
     }
 
-    public int create_event() {
+    public int new_event() {
+        return 1;
+    }
+
+    public int new_group() {
+        return 1;
+    }
+
+    public int view_group() {
+        return 1;
+    }
+
+    public int settings() {
         return 1;
     }
 
