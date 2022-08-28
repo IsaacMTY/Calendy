@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.Date;
 
-public class event {
+public class event implements access_csv{
     public static String PROMPT_OPTIONS_EDIT = """
     ---------- Edit Event ----------
     1. Title
@@ -209,6 +209,24 @@ public class event {
 
     public int display_event(){
         return 1;
+    }
+
+    @Override
+    public event read_csv(int id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public int edit_csv(Object T) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public int append_csv(Object T) {
+        // TODO Auto-generated method stub
+        return 0;
     }
 
 } 
